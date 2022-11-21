@@ -1,0 +1,35 @@
+.phone{
+    max-width:1483px;
+    height:710px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:220px;
+    display:flex;
+    justify-content: space-between;
+}
+.phone .playstore{
+display:flex;
+ margin-top:65px;
+}
+.phone h1{
+font-family: 'Poppins', sans-serif; 
+font-weight: 900;
+font-size: 48px;
+line-height: 150%;
+}
+.phone span{
+font-family: 'Poppins', sans-serif; 
+font-weight: 500;
+font-size: 24px;
+line-height: 35px;
+}
+.phone .circle{
+display:flex;
+justify-content: center;
+align-items: center;
+width:637px;
+}
+.ellipse{
+position:absolute;
+z-index: -1;
+}

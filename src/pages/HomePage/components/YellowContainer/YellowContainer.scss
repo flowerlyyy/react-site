@@ -1,0 +1,63 @@
+.yellowcolor{
+    height:968px;
+    display: flex;
+    margin-top: 178px;
+}
+.yelgirl{
+    margin-right: -2px;
+}
+.twopart{
+    background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+flex-grow: 1;
+}
+.little{
+    margin-left:70px;
+    margin-top:128px;
+    position: relative;
+    z-index: 1;
+}
+.little mark{
+    background-color: white;
+    transform: skewY(10deg);
+}
+
+.little h1{
+    font-family: 'Poppins', sans-serif; 
+font-weight: bold;
+font-size: 111.608px;
+line-height: 137px;
+}
+.little .data1{
+    font-family: 'Poppins', sans-serif; 
+font-weight: 500;
+font-size: 36.0402px;
+line-height: 52px;
+}
+.little .data2{
+    font-family: 'Poppins', sans-serif; 
+font-weight: 500;
+font-size: 36.0402px;
+line-height: 52px;
+}
+.little .data3{
+    font-family: 'Poppins', sans-serif; 
+font-weight: 400;
+font-size: 36.0402px;
+line-height: 52px;
+}
+.box{
+    margin-top:40px;
+}
+.click{
+    width:265px;
+    height:95px;
+    border-radius: 8px;
+    background-color: black;
+    color:white;
+    font-family: 'Poppins', sans-serif; 
+font-weight: 600;
+font-size: 27.9021px;
+line-height: 42px;
+letter-spacing: 0.02em;
+margin-top:51px;
+}

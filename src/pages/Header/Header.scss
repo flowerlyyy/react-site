@@ -1,0 +1,17 @@
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top:46px;
+}
+
+.sign{
+    cursor: pointer;
+    background-color: black;
+    width:134px;
+    height:62px;
+    border-radius: 7px;
+    color:white;
+    font-size: 24px;
+    margin-left: 65px;
+}

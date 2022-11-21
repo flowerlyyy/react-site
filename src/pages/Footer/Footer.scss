@@ -1,0 +1,60 @@
+.end{
+    background-color: black;
+    color: white;
+    height:545px;
+    }
+.fashion{
+    padding-left:100px;
+    padding-top:119px;
+}
+.fashion h1{
+    font-family: 'Poppins', sans-serif;  
+font-weight: 900;
+font-size: 40px;
+line-height: 60px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.apps{
+    display:flex;
+    gap:14px;
+}
+.fashion p{
+    font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 24px;
+line-height: 40px;
+letter-spacing: 0.02em;
+color: #8E8E8E;
+}
+.about-us{
+    display:flex;
+    justify-content: space-between;
+}
+.sequences{
+    padding-top: 125px;
+    display:flex;
+ gap: 188px;
+    
+}
+.primary{
+    font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 24px;
+line-height: 40px;
+letter-spacing: 0.02em;
+color: #D9D9D9;
+text-decoration: none;
+}
+.lists{
+    font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 24px;
+line-height: 40px;
+letter-spacing: 0.02em;
+color: #7A7A7A;
+text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}

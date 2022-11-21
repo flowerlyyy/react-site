@@ -1,0 +1,54 @@
+.email{
+    background-color: #E5C643;
+    height: 623px;
+    text-align: center;
+}
+.email .firsthead{
+    font-family: 'Poppins', sans-serif; 
+font-weight: 900;
+font-size: 55px;
+line-height: 70px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+padding-top: 141px;
+}
+.email p{
+font-family: 'Poppins', sans-serif; 
+font-weight: 400;
+font-size: 32px;
+line-height: 35px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #FFFCF8;
+padding-top: 10px;
+}
+
+.email input{
+    width:574px;
+    height:87px ;
+    background-color: white;
+    border-radius: 10px;
+   color:  #767676;
+    font-family: 'Poppins', sans-serif;  
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+letter-spacing: 0.03em;
+position: absolute;
+justify-content: center;
+align-items: center;
+}
+.email button{
+width:161px;
+height:67px;
+border-radius: 8px;
+background-color: black;
+color:white;
+font-family: 'Poppins', sans-serif;  
+font-weight: 500;
+font-size: 33px;
+position: relative;
+margin-left:400px;
+margin-top:10px;
+}
