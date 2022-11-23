@@ -1,6 +1,7 @@
-import { NavBar } from '../../components/NavBar';
+
 import './Header.scss';
 import logo from './Frame 57.svg';
+import { NavBar } from '../../components/NavBar/NavBar';
 
 export const Header=()=>{
     return(

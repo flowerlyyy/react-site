@@ -1,0 +1,65 @@
+
+.carousel{
+    margin-top:63px;
+    position: relative;
+    left:41px;
+}
+.carousel h1{
+ font-family: 'Poppins', sans-serif; 
+font-size: 48px;
+font-weight: bold;
+line-height: 50px;
+line-height: 69%;
+align-content: Left;
+}
+.pimg{
+position: relative;
+}
+.leaf{
+    position: absolute;
+    left: 190px;
+    top: 12px;
+    z-index: -1;
+}
+.carousel .three-pictures{
+    display:flex;
+    margin-top:101px;
+    transition: margin-left .6s ease-in-out;
+    gap:90px;
+    overflow: hidden;
+}
+.buttons{
+    display: flex;
+    align-items:flex-end;
+    gap:10px;
+}
+.new .name{
+font-family: 'Poppins', sans-serif; 
+font-size: 32px;
+line-height: 50px;
+line-height: 104%;
+align-content: left;
+margin-bottom:28px;
+text-decoration: none;
+color: black;
+}
+.carousel .explore{
+font-family: 'Poppins', sans-serif; 
+font-size: 24px;
+line-height: 50px;
+line-height: 139%;
+color:#7F7F7F;
+padding-bottom:10px;
+text-decoration: none;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.textarrow{
+    display:flex;
+    justify-content: space-between;
+}
+ .arrow{
+    margin-top:20px;
+    }

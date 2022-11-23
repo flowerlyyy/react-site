@@ -18,7 +18,7 @@ return(
                 <a href="#" className="name">Trending on instagram </a>
                 <a href="#" className="explore">Explore Now!</a>
               </div>
-              <img className="arrow2" src={arrow} alt="arrow" />
+             <img className="arrow2" src={arrow} alt="arrow" />
             </div>
           </div>
           <div className="collection2">
