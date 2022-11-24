@@ -8,12 +8,13 @@ interface IProductCardProps{
     description: string;
     descriptionLink: string;
     arrow:string;
+    marginLeft?:string;
     
 }
 export const ProductCard=(props:IProductCardProps)=>{
-    const {imageSrc,arrow,description,descriptionLink,title,titleLink}=props;
+    const {imageSrc,arrow,description,descriptionLink,title,titleLink,marginLeft}=props;
     return (
-<div className="column">
+<div className="column" style={ marginLeft ? { marginLeft: marginLeft } : {} }>
                     <img className="afterChange" src={imageSrc} alt="" />
                    <div className="textArrow">
                       <div className="text">

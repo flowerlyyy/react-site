@@ -1,88 +1,119 @@
+import { useState } from 'react';
+import { ProductCard } from '../ProductCard/ProductCard';
 import './Carousel.scss';
 import leaf from './Vector 9.png';
+import hoodies from './Rectangle 20.png';
+import coats from './Rectangle 21.png';
+import tees from './Rectangle 22.png';
+import arrow from './Arrow 1.svg';
+
+
 export const Carousel=()=>{
+    const productCardWidth = 562;
+    const [currentSlideNumber] = useState(0);
+    
     
     const products=[
         {
             id:1,
-            imageSrc: './Assets/Rectangle 20.png',
+            imageSrc: hoodies,
             title: 'Hoodies & Sweetshirt',
             titleLink: '#',
             description: 'Explore Now!',
-            arrow:'./Assets/Arrow 1.svg'
+             descriptionLink: '#',
+            arrow:arrow 
         },{
             id:2,
-            imageSrc: './Assets/Rectangle 21.png',
+            imageSrc: coats,
             title: 'Coats & Parkas',
             titleLink: '#',
             description: 'Explore Now!',
             descriptionLink: '#',
-            arrow:'./Assets/Arrow 1.svg'
+            arrow:arrow 
         },{
             id:3,
-            imageSrc: './Assets/Rectangle 22.png',
+            imageSrc: tees,
             title: 'Tees & T-Shirt',
             titleLink: '#',
             description: 'Explore Now!',
             descriptionLink: '#',
-            arrow:'./Assets/Arrow 1.svg'
+            arrow:arrow 
         },{
             id:4,
-            imageSrc: './Assets/Rectangle 20.png',
+            imageSrc: hoodies,
             title: 'Hoodies & Sweetshirt',
             titleLink: '#',
             description: 'Explore Now!',
             descriptionLink: '#',
-            arrow:'./Assets/Arrow 1.svg'
+            arrow:arrow 
         },{
             id:5,
-            imageSrc: './Assets/Rectangle 20.png',
+            imageSrc: hoodies,
             title: 'Coats & Parkas',
             titleLink: '#',
             description: 'Explore Now!',
             descriptionLink: '#',
-            arrow:'./Assets/Arrow 1.svg'
+            arrow:arrow 
         },{
             id:6,
-            imageSrc: './Assets/Rectangle 20.png',
+            imageSrc: hoodies,
             title: 'Tees & T-Shirt',
             titleLink: '#',
             description: 'Explore Now!',
             descriptionLink: '#',
-            arrow:'./Assets/Arrow 1.svg'
+            arrow:arrow
         },{
             id:7,
-            imageSrc: './Assets/Rectangle 21.png',
+            imageSrc: coats,
             title: 'Hoodies & Sweetshirt',
             titleLink: '#',
             description: 'Explore Now!',
             descriptionLink: '#',
-            arrow:'./Assets/Arrow 1.svg'
+            arrow:arrow 
         },{
             id:8,
-            imageSrc: './Assets/Rectangle 21.png',
+            imageSrc: coats,
             title: 'Coats & Parkas',
             titleLink: '#',
             description: 'Explore Now!',
             descriptionLink: '#',
-            arrow:'./Assets/Arrow 1.svg'
+            arrow:arrow 
         },{
             id:9,
-            imageSrc: './Assets/Rectangle 21.png',
+            imageSrc: coats,
             title: 'Tees & T-Shirt',
             titleLink: '#',
             description: 'Explore Now!',
             descriptionLink: '#',
-            arrow:'./Assets/Arrow 1.svg'
+            arrow:arrow 
         },
         ];
     return (
-        <div className="carousel">
-<div className="pimg">
-          <h1>NEW ARRIVALS</h1>
-          <img className="leaf" src={leaf} alt="leaf" />
-        </div>
- <div className="three-pictures"></div>
-        </div>
-    )
+      
+        <div className="new container">
+        <div className="pimg">
+        <h1>NEW ARRIVALS</h1>
+        <img className="leaf" src={leaf} alt="leaf" />
+      </div>
+
+<div className="three-pictures">
+    {
+        products.map((product,index)=> <ProductCard 
+        id={product.id} 
+        imageSrc={product.imageSrc} 
+        title={product.title} 
+        titleLink={product.titleLink} 
+        description={product.description} 
+        descriptionLink={product.descriptionLink} 
+        arrow={product.arrow}
+        marginLeft={
+            index === 0 ? `${-productCardWidth * currentSlideNumber}px` : ""
+          }
+        />)
+    }
+</div>
+    </div>
+    
+    );
 }
+

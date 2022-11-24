@@ -13,8 +13,9 @@ export const HomePage = ()=>{
     <>
     <Home/>
   <Logos/>
+  <Carousel />
 <YellowContainer />
-<Carousel />
+
       <div className="new container">
         </div>
       <Favourite />

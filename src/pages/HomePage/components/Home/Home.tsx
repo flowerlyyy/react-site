@@ -16,6 +16,14 @@ export const Home=()=>{
             <br />
             CLOTHES.
           </h1>
+          <h1 className="mobile-only">
+            LET’S
+            <img className="backimage" src={white} alt="white" />
+            &nbsp;&nbsp; EXPLORE <br />
+            UNIQUE
+            <img className="backimage" src={yellow} alt="yellow" />&nbsp;
+            CLOTHES.
+          </h1>
           <div className="textbutton">
             <p>Live for Influential and Innovative fashion!</p>
             <div className="two">

@@ -49,3 +49,75 @@ line-height: 50px;
        justify-content: flex-end;
         top:20px;
     }
+
+    @media (min-width:401px){
+        .mobile-only{
+            display: none !important;
+        }
+      }
+      @media (max-width:400px)
+      {
+        .desktop-only{
+        display:none !important;
+        }
+        ::-webkit-scrollbar{
+            display: none;
+        }
+        .favourite{
+            height:200px;
+           margin-top: 10px;
+        }
+        .favourite h1{
+        font-size: 12px;
+        line-height: 50px;
+        }
+        .youngimg{
+            position: relative;
+        }
+        .leaf2{
+            position: absolute;
+            z-index: -1;
+            top: 22px;
+            left:50px;
+            width: 70px;
+            height: 15px;
+        }
+        .arrow2{
+            width: 10px;
+            height: 10px;
+        }
+        .pink{
+            display: flex;
+            gap: 20px;
+            margin-top:20px;
+            overflow: auto;
+         
+        }
+        .favourite .smiles{
+            width: 170px;
+            height: 160px;
+        }
+        .favourite .name{ 
+            font-size: 10px;
+            line-height: 15px;
+            line-height: 104%;
+            align-content: left;
+            margin-bottom:28px;
+           
+            }
+            .favourite .explore{
+            font-size: 8px;
+            line-height: 8px;
+            line-height: 10%;
+            padding-bottom:10px;
+        
+            }
+            .favourite .text{
+                display:flex;
+            }
+            .text img{
+                position: relative;
+               justify-content: flex-end;
+                top:20px;
+            }
+      }

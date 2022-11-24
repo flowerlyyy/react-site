@@ -58,3 +58,66 @@ text-decoration: none;
 ul{
     list-style-type: none;
 }
+
+@media (min-width:401px){
+    .mobile-only{
+        display: none !important;
+    }
+  }
+  @media (max-width:400px)
+  {
+    .desktop-only{
+    display:none !important;
+    }
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    .end{
+        height:300px;
+        }
+    .fashion{
+        padding-left:40px;
+        padding-top:20px;
+    }
+    .fashion h1{
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    }
+    .apps{
+        display:flex;
+        gap:14px;
+    }
+    .fashion p{
+    font-size: 8px;
+    line-height: 10px;
+    letter-spacing: 0.02em;
+    }
+    .about-us{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    .apps .social{
+        width:20px;
+        height: 20px;
+    }
+    .sequences{
+        padding-top: 15px;
+        display:flex;
+     gap: 30px;
+        
+    }
+    .primary{
+        font-size: 8px;
+    line-height: 10px;
+    letter-spacing: 0.02em;
+    }
+    .lists{
+        font-size: 8px;
+    line-height: 10px;
+    letter-spacing: 0.02em;
+    }
+    ul{
+        list-style-type: none;
+    }
+  }

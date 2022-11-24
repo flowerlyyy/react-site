@@ -1,10 +1,10 @@
 
-.carousel{
+.new{
     margin-top:63px;
     position: relative;
     left:41px;
 }
-.carousel h1{
+ .new h1{
  font-family: 'Poppins', sans-serif; 
 font-size: 48px;
 font-weight: bold;
@@ -21,7 +21,7 @@ position: relative;
     top: 12px;
     z-index: -1;
 }
-.carousel .three-pictures{
+.new .three-pictures{
     display:flex;
     margin-top:101px;
     transition: margin-left .6s ease-in-out;
@@ -43,7 +43,7 @@ margin-bottom:28px;
 text-decoration: none;
 color: black;
 }
-.carousel .explore{
+.new .explore{
 font-family: 'Poppins', sans-serif; 
 font-size: 24px;
 line-height: 50px;
@@ -63,3 +63,59 @@ text-decoration: none;
  .arrow{
     margin-top:20px;
     }
+
+    @media (min-width:401px){
+        .mobile-only{
+            display: none !important;
+        }
+      }
+      @media (max-width:400px)
+      {
+        .desktop-only{
+        display:none !important;
+        }
+        ::-webkit-scrollbar{
+            display: none;
+        }
+        .new{
+            margin-top:30px;
+            left:5px;
+        }
+        .new h1{
+            font-size: 14px;
+        }
+        .new .leaf  {
+            left: 40px;
+            top: 3px;
+            width: 60px;
+            height: 10px ;    
+        }
+        .new .three-pictures{
+            display:flex;
+            margin-top:15px;
+            transition: margin-left .6s ease-in-out;
+            gap:20px;
+            overflow: hidden;
+        }
+        .afterchange{
+            width: 170px;
+            height: 160px;
+        }
+        .new .name{
+            font-size: 12px;
+        line-height: 25px;
+        line-height: 50%;
+        }
+        .new .explore{
+            font-size: 9px;
+        padding-bottom:10px;
+        line-height: 15px;
+        line-height: 50%;
+        
+        }
+        .new .arrow{
+            margin-top:20px;
+            width:10px;
+            height:10px;
+        }
+      }

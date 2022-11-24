@@ -52,3 +52,58 @@ position: relative;
 margin-left:400px;
 margin-top:10px;
 }
+
+@media (min-width:401px){
+    .mobile-only{
+        display: none !important;
+    }
+  }
+  @media (max-width:400px)
+  {
+    .desktop-only{
+    display:none !important;
+    }
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    .email{
+        height: 200px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .email .firsthead{
+    
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding:10px 25px 0px 25px;
+    }
+    .email p{
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    padding-top: 10px;
+    }
+    .email input{
+        width:300px;
+        height:40px ;
+        border-radius: 5px;
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 0.03em;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    }
+    .email button{
+    width:60px;
+    height:30px;
+    border-radius: 8px;
+    font-size: 10px;
+    position: relative;
+    margin-left:235px;
+    margin-top:5px;
+    }
+  }
