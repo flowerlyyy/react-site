@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import {  useState } from 'react';
 import { ProductCard } from '../ProductCard/ProductCard';
 import './Carousel.scss';
 import leaf from './Vector 9.png';
@@ -12,8 +12,7 @@ export const Carousel=()=>{
     const productCardWidth = 562;
     const [currentSlideNumber] = useState(0);
     
-    
-    const products=[
+     const products=[
         {
             id:1,
             imageSrc: hoodies,
@@ -114,6 +113,6 @@ export const Carousel=()=>{
 </div>
     </div>
     
-    );
-}
+    )
+};
 

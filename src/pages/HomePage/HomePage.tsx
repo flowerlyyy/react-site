@@ -15,9 +15,6 @@ export const HomePage = ()=>{
   <Logos/>
   <Carousel />
 <YellowContainer />
-
-      <div className="new container">
-        </div>
       <Favourite />
       <Phone />
       
